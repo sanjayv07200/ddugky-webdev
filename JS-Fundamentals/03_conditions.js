@@ -22,7 +22,7 @@ else{
     console.log("number is a negative number.")
  }*/
 
-var marks =68;
+var marks =5;
 var Grade;
 var conditionO = marks >=90;
 var conditionG = marks >=80 && marks < 90;
@@ -34,4 +34,4 @@ if (conditionO)(console.log("your grade is :",Grade="O"));
 else if(conditionG)(console.log( "your grade is : ",Grade="G"));
 else if(conditionA)(console.log("your grade is : ",Grade="A"));
 else if(conditionB)(console.log("your grade is : ",Grade="B"));
-else(conditionF)(console.log("your grade is : ",Grade ="f"));
+else if(conditionF)(console.log("your grade is : ",Grade ="f"));
