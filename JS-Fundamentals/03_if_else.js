@@ -65,3 +65,4 @@ if(num/2==0){
 // var year = 2043;
 // if (year/4==0)console.log("this is year is leap year :",year);
 // else(console.log("this is not a leap year :",year));
+
