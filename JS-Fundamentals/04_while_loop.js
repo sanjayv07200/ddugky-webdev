@@ -7,7 +7,7 @@ while(num<=10){
 }
 console.log("===============")
 
- //print number of table 2
+ //print number of table 2K
  num = 1;
 while(num<=10){
     console.log(num,"*",2,"=",num*2);
