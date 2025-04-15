@@ -1,8 +1,19 @@
-//find the factorial of the number
-let number = 3;
-let result = 0;
-while(number<=1){
- result  = number * (number-1);
-    number++;
+// count the number of factor
+let num = 12;
+let pointer = 0;
+let count = 0;
+
+while (pointer <= num) {
+  if (num % pointer == 0) {
+    count++;
+  }
+  pointer++;
 }
-console.log(result);
+
+console.log(" factor count:", count);
+console.log("num:", num);
+if (count == 2) {
+  console.log("its a prime number");
+} else {
+  console.log("its not a prime number");
+}
