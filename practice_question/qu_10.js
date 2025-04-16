@@ -1,5 +1,13 @@
-let number = 5;
-let power = 2;
+// Print the power of a given number
+let num = 5;
+let power = 3;
 
-while (number > pointer) {}
-console.log("factorial: ", factorial);
+let p = power;
+let ans = 1;
+
+while (p >= 1) {
+  ans = ans * num;
+  p--;
+}
+
+console.log(num, "to the power", power, "=", ans);

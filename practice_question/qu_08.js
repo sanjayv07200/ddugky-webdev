@@ -1,9 +1,11 @@
-let number = 5;
-let pointer = 0;
-let factorial = 1;
+// find the factorial of number;
 
-while (number > pointer) {
-  factorial = factorial * number;
+let number = 5;
+let ans = 1;
+
+while (number >= 1) {
+  ans = ans * number;
   number--;
 }
-console.log("factorial: ", factorial);
+
+console.log("factorial: ", ans);
