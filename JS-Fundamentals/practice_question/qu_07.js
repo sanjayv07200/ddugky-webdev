@@ -1,4 +1,4 @@
-// count the number of factor
+// count the number of factor and check the number is prime or not
 let num = 12;
 let pointer = 0;
 let count = 0;
