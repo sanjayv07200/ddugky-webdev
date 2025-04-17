@@ -1,24 +1,24 @@
-// print hello world for 10 times 
+// print hello world for 10 times
 
 let num = 1;
-while(num<=10){
-    console.log(num,"Hello World");
-    num++;
+while (num <= 10) {
+  console.log(num, "Hello World");
+  num++;
 }
-console.log("===============")
+console.log("===============");
 
- //print number of table 2K
- num = 1;
-while(num<=10){
-    console.log(num,"*",2,"=",num*2);
-    num++;
+//print number of table 2
+num = 1;
+while (num <= 10) {
+  console.log(num, "*", 2, "=", num * 2);
+  num++;
 }
 
-console.log("--------------------")
+console.log("--------------------");
 
 // print square of 1 to 10 digit
 num = 1;
-while(num<=10){
-    console.log(num,"*",num,"=",num*num);
-    num++;
+while (num <= 10) {
+  console.log(num, "*", num, "=", num * num);
+  num++;
 }

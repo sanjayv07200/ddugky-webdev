@@ -1,6 +1,6 @@
 //print the count of the number
-num = 56789;
-count = 0;
+let num = 56789;
+let count = 0;
 let d = 0;
 while (num > 0) {
   let digit = num % 10;

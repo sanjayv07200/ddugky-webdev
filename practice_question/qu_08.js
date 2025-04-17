@@ -1,5 +1,4 @@
 // find the factorial of number;
-
 let number = 5;
 let p = number;
 let ans = 1;
