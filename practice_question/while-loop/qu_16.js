@@ -1,9 +1,13 @@
 // Find the largest digit of a number
-let number = 214;
+let number = 67493;
 let p = number;
-let digit = null;
+let Ldigit = 0;
+
 while (p > 0) {
-  digit = p % 10;
-  p = Math.floor(p / 10);
+  let digit = p % 10;
+  if (Ldigit > digit) {
+    Ldigit = digit;
+  }
+  p++;
 }
-console.log(digit);
+console.log(Ldigit);
