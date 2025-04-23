@@ -9,6 +9,7 @@ while (index < arr.length) {
   let num = arr[index];
 
   if (num > lrg) {
+    lrg2 = lrg;
     lrg = num;
   }
   if (num != lrg && num > lrg2) {

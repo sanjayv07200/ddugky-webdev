@@ -1,15 +1,11 @@
-//Print second largest number in an array
-let arr = [1, 5, 6, 3, 4];
+// copy all element of an array and create an another array
+let arr = [23, 4, 5, 67, 8, 4];
+let arr2 = [];
 let index = 0;
-let l = 0;
-let L2 = 0;
 
 while (index < arr.length) {
-  if (arr[index] > l) {
-    L2 = l;
-    l = arr[index];
-  }
+  arr2[index] = arr[index];
   index++;
 }
-console.log(l);
-console.log(L2);
+console.log(arr);
+console.log(arr2);
