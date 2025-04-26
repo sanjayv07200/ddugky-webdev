@@ -1,4 +1,4 @@
- /*var number = 90;
+/*var number = 90;
 if (number>=33){
     if (number>=80){
         console.log("you got distinct.")
@@ -60,9 +60,15 @@ if(num/2==0){
 //     console.log("number3 is the largest number:",number3)
 // }
 
-
 // for checking that the year is leap year or not
 // var year = 2043;
 // if (year/4==0)console.log("this is year is leap year :",year);
 // else(console.log("this is not a leap year :",year));
 
+// check that number is prime or not
+let num = 23;
+if (num % 2 == 0) {
+  console.log(num, ":its a prime number");
+} else {
+  console.log(num, "its a prime number");
+}

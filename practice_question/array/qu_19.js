@@ -1,6 +1,6 @@
 //Swap first and last elements
 //Use a while loop to swap the first and last elements of an array.
-let arr = [1, 2, 3, 4;
+let arr = [47, 2, 3, 4, 45, 67];
 let index = 0;
 let first_element = 0;
 let last_element = 0;
@@ -10,7 +10,7 @@ while (index < arr.length) {
   if (num == arr[0]) {
     first_element = num;
   }
-  if (num == arr.length) {
+  if (num == arr[arr.length - 1]) {
     last_element = num;
   }
   index++;
@@ -23,5 +23,13 @@ let a = first_element;
 let b = last_element;
 let temp = 0;
 
-console.log(b);
-console.log(a);
+temp = b;
+b = a;
+a = temp;
+
+console.log("first_element:", a);
+console.log("last_element:", b);
+
+console.log(arr);
+
+console.log(temp);
