@@ -15,7 +15,6 @@ while (index < arr.length) {
   if (num != lrg && num > lrg2) {
     lrg2 = num;
   }
-
   index++;
 }
 
