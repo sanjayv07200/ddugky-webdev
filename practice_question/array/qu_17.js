@@ -5,7 +5,7 @@ let index = 1;
 
 while (index < arr.length) {
   arr[index - 1] = arr[index];
-
+  if (arr[index] == arr[arr.length - 1]) arr[arr.length - 1] = null;
   index++;
 }
 console.log(arr);

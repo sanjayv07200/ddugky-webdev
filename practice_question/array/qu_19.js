@@ -18,18 +18,4 @@ while (index < arr.length) {
 console.log("------before swapping-----");
 console.log("first element:", first_element);
 console.log("last element:", last_element);
-console.log("------after swapping------");
-let a = first_element;
-let b = last_element;
-let temp = 0;
-
-temp = b;
-b = a;
-a = temp;
-
-console.log("first_element:", a);
-console.log("last_element:", b);
-
 console.log(arr);
-
-console.log(temp);
