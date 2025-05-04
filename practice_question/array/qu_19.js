@@ -16,7 +16,4 @@ while (index < arr.length) {
 
   index++;
   lindex--;
-
-  console.log(arr);
-  break;
 }

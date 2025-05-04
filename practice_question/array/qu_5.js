@@ -1,10 +1,16 @@
 //Print the largest number in the array
-let arr = [1, 2, 4, 3, 5, 6];
-let p = arr;
-let idx = 0;
-let Ldigit = 0;
-while (idx < arr.length) {
-  if (Ldigit < arr[idx]) Ldigit = arr[idx];
-  idx++;
-}
-console.log(Ldigit);
+const lrg_element = function (arr) {
+  let index = 0;
+  let lrg_num = null;
+
+  while (index < arr.length) {
+    let num = arr[index];
+    if (num > lrg_num) {
+      lrg_num = arr[index];
+    }
+    index++;
+  }
+  return lrg_num;
+};
+const ans = lrg_element([12, 3, 5, 46, 78]);
+console.log(ans);

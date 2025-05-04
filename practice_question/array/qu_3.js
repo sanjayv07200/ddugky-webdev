@@ -1,10 +1,12 @@
 // Calculate sum of all array elements
-let arr = [1, 2, 4, 3, 5, 6];
-let p = arr;
-let idx = 0;
-let sum = 0;
-while (idx < arr.length) {
-  sum = sum + p[idx];
-  idx++;
-}
-console.log(sum);
+const sum_el_array = function (arr) {
+  let index = 0;
+  let sum = null;
+  while (index < arr.length) {
+    sum += arr[index];
+    index++;
+  }
+  return sum;
+};
+const ans = sum_el_array([1, 2, 3, 4, 5]);
+console.log(ans);

@@ -1,11 +1,15 @@
 //Print the array elemnets which are multiples of 2 & 3 both
-let arr = [1, 2, 4, 3, 5, 6, 12, 18];
-let p = arr;
-let idx = 0;
-
-while (idx < arr.length) {
-  if (arr[idx] % 2 == 0 && arr[idx] % 3 == 0) {
-    console.log(arr[idx]);
+const multiple = function (arr) {
+  let index = 0;
+  let arr2 = [];
+  while (index < arr.length) {
+    let p = arr[index];
+    if (p % 2 == 0 && p % 3 == 0) {
+      arr2.push(p);
+    }
+    index++;
   }
-  idx++;
-}
+  return arr2;
+};
+const ans = multiple([1, 12, 23, 14, 24, 16]);
+console.log(ans);

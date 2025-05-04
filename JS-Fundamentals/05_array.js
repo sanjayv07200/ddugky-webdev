@@ -69,5 +69,8 @@ console.log(arr1.includes(5));
 arr1 = [1, 3, 5, 7, 8, 9];
 console.log(arr1.indexOf(9));
 
-
 */
+const words = ["sanjay", "ajay", "kuldeep", "sachin", "radhika"];
+const res = words.filter((words) => words.length > 6);
+console.log(res);
+console.log(words);

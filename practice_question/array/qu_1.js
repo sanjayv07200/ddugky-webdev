@@ -1,8 +1,9 @@
 // print all the element of an array
-let arr = [1, 2, 4, 3, 5, 6];
-let p = arr;
-let idx = 0;
-while (idx < arr.length) {
-  console.log(p[idx]);
-  idx++;
-}
+const element_arr = function (arr) {
+  let index = 0;
+  while (index < arr.length) {
+    console.log(arr[index]);
+    index++;
+  }
+};
+element_arr([5, 6, 7, 4, 3]);

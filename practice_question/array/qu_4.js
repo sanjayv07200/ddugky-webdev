@@ -1,12 +1,14 @@
 //count all odd numbers in an array
-let arr = [1, 2, 4, 3, 5, 6];
-let p = arr;
-let idx = 0;
-let count = 0;
-while (idx < arr.length) {
-  if (arr[idx] % 2 != 0) {
-    count++;
+const count_odd = function (arr) {
+  let index = 0;
+  let count = null;
+  while (index < arr.length) {
+    if (arr[index] % 2 == 1) {
+      count++;
+    }
+    index++;
   }
-  idx++;
-}
-console.log(count);
+  return count;
+};
+const ans = count_odd([12, 15, 13, 16, 17]);
+console.log("count of odd element:", ans);
