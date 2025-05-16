@@ -6,7 +6,7 @@ let lindex = arr.length;
 let first_element = 0;
 let last_element = 0;
 
-while (index < arr.length) {
+while (index < arr.length / 2) {
   first_element = arr[index];
   last_element = arr[lindex - 1];
 
@@ -14,6 +14,8 @@ while (index < arr.length) {
   first_element = last_element;
   last_element = temp;
 
+
   index++;
   lindex--;
 }
+console.log(arr);

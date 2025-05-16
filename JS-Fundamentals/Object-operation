@@ -1,0 +1,22 @@
+//
+const book = {
+  title: "sanjay's book",
+  author: "mahesh",
+  pages: 208,
+};
+book.title = "panchtantra";
+book.address = "raltam";
+delete book.pages;
+console.log(book["title"]);
+
+console.log(book);
+console.log(book.title);
+
+const students = {
+  ID123: {
+    name: ["sanjay", "mahesh", "rahul"],
+    grade: ["A", "B", "C"],
+    age: [20, 22, 22],
+  },
+};
+console.log(students.ID123);
