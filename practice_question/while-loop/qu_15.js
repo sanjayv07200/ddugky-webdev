@@ -1,5 +1,5 @@
 // check if the number is 4 digit number
-num = 1234;
+num = 123478;
 count = 0;
 let d = 0;
 while (num > 0) {
